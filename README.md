@@ -1,6 +1,11 @@
 # applibrary
+###前言 
+此项目为安卓app library包，里面包含了安卓应用开发中常用到的网络加载、   
+数据持久化、图片裁圆描边、常用工具类、工具方法等，并附有demo对library
+的使用进行演示，当我们要开始开发一个应用时，只要依赖这个library，就可
+以进行快速开发，避免我们在开发app过程中总是在写重复的代码、解决重复的问题。
 ###1、网络模块
- 来自github开源项目：https://github.com/jeasonlzy/okhttp-OkGo，去掉了文件上传下载管理功能模块，因为这个功能在一般的app
+ 来自github开源项目：https://github.com/jeasonlzy/okhttp-OkGo， 去掉了文件上传下载管理功能模块，因为这个功能在一般的app
  中应用的少。具体使用请看Demo。<br />
   使用步骤：<br />
      1）在gradle里面添加包： compile 'com.lzy.net:okhttputils:+' <br />
