@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="status_bar_height">22dp</dimen>
+    <!--48+22-->
+    <dimen name="actionBarSize">70dp</dimen>
+    <dimen name="right_button_margintop">27dp</dimen>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liujs.demo.testactivity.MainActivity">
+  <include layout="@layout/actionbar_layout"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新效果1"
+        android:id="@+id/refresh_button1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_bg_selector"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新效果2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/refresh_button2"
+        android:background="@drawable/button_bg_selector"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新效果3"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/refresh_button3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg_selector"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OkHttpUtils包的使用方法"
+        android:id="@+id/refresh_button4"
+        android:layout_marginLeft="20dp"
+  android:background="@drawable/button_bg_selector"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="圆头像（图片裁圆描边）"
+      android:id="@+id/refresh_button5"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="20dp"
+      android:background="@drawable/button_bg_selector"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="ContentProvider读写"
+      android:id="@+id/refresh_button6"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="20dp"
+      android:background="@drawable/button_bg_selector"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" />
+</LinearLayout>

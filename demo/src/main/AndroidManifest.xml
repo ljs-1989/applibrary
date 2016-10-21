@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liujs.demo">
+
+    <application
+        android:name=".testactivity.DemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".testactivity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".testactivity.TestRefreshActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.MethodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.JsonRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.BitmapRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.PostTextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.FormUploadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.FileDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.CacheActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.HttpsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.SyncActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.RedirectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.OkHttpUtilsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okhttpdemo.cache.CacheDemoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.WebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".okhttpdemo.okhttputils.OkHttpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".testactivity.CircleImageActivity" />
+        <activity android:name=".testactivity.TestProviderActivity"></activity>
+        <provider
+            android:authorities="mz.privider.test"
+            android:name="com.liujs.demo.providerdemo.BooksProvider"
+            android:process=":provider"
+            android:permission="com.ryg.PROVIDER"/>
+    </application>
+
+</manifest>
